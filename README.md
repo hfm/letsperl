@@ -1,6 +1,3 @@
-let'sperl
-========
-
-This box is scattered with perl.
+# let'sperl
 
 初めてのPerlとかいろんなPerlのコードで楽しむ。
