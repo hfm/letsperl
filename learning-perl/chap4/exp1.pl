@@ -3,16 +3,6 @@
 use strict;
 use warnings;
 
-sub max {
-    my $max_num = shift @_;
-    foreach (@_) {
-        if ($_ > $max_num) {
-            $max_num = $_;
-        }
-    }
-    $max_num = $_;
-}
-
 sub total {
     my $total_num = shift @_;
     foreach (@_) {
@@ -20,7 +10,6 @@ sub total {
     }
     $total_num;
 }
-
 
 my @fred = qw/ 1 3 5 7 9 /;
 my $fred_total = total(@fred);
